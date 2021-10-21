@@ -42,6 +42,8 @@ Github - https://github.com/Chaitanyadp/React_Email_ServiceFE
 - JWT/token based authentication can be implemented.
 - Request and response interceptors can be added using Axios to handle Authorization headers with Bearer tokens.
 - Add plugins to handle custom instance creation. 
+- Remove vulnerabilities like XSS attacks.
+- Loader for pages.
 
 ## Available Scripts
 
