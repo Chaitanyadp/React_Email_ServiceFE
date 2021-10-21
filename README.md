@@ -1,16 +1,47 @@
-# Getting Started with Create React App
+# Getting Started with EmailService App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Details
+
+- Frontend is build using React.
+- Backend is build using Flask.
+- MySQL Db is running in cloud with ClearDB MySQL at Heroku.
+- Flask-MySQLDB is used to communicate between DB and server.
+- Sessions for login and for creating API endpoints using Flask.
 
 # Backend
 
-## Deployed at heroku
+## Deployed at heroku 
 
-https://backend-flask-mysql.herokuapp.com/
+Heroku - https://backend-flask-mysql.herokuapp.com/
+Github - https://github.com/Chaitanyadp/EMailServiceAPI
 
 ## Created pip package emailservice being used in the backend service API
 
 ### `pip install emailservice`
+
+# FrontEnd
+
+## Deployed at below link
+
+Heroku - https://react-send-mail-service.herokuapp.com/
+
+Github - https://github.com/Chaitanyadp/React_Email_ServiceFE
+
+## Features
+
+- Simple UI using ReactJS, Router, Link, and Hooks.
+- For styling, I have used Semantic UI for React.
+- Axios-based React hooks for async HTTP request data
+- Retains data and state regardless of each time component rerendering unless the config changes. 
+- Automatic transforms for JSON data
+- Transform request and response data
+
+## Can be developed further (Due to time constraints I had while working on this, I haven't implemented them)
+
+- No confirmation notification on mail being sent. 
+- JWT/token based authentication can be implemented.
+- Request and response interceptors can be added using Axios to handle Authorization headers with Bearer tokens.
+- Add plugins to handle custom instance creation. 
 
 ## Available Scripts
 
