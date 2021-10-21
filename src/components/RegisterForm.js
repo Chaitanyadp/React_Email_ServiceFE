@@ -60,13 +60,24 @@ const RegisterForm = () => {
       <Container style={{ marginTop: 40 }}>
         <Header
           as="h1"
-          content="Note: Make Sure to Allow less secure apps is turned ON for your account"
+          content="Registration Form"
           inverted
           style={{
             fontSize: "1.5em",
             fontWeight: "normal",
             marginBottom: "1em",
             marginTop: "3em",
+          }}
+        />
+        <Header
+          as="h2"
+          content="Note: Make Sure to Allow less secure apps is turned ON for your account"
+          inverted
+          style={{
+            fontSize: "1.5em",
+            fontWeight: "normal",
+            marginBottom: "1em",
+            marginTop: "2em",
           }}
         />
         <Form>

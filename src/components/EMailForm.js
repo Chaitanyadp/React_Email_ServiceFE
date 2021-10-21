@@ -1,5 +1,12 @@
 import React, { useState } from "react";
-import { Container, Form, Input, Button, TextArea } from "semantic-ui-react";
+import {
+  Container,
+  Header,
+  Form,
+  Input,
+  Button,
+  TextArea,
+} from "semantic-ui-react";
 import { Link } from "react-router-dom";
 
 import axios from "axios";
@@ -62,8 +69,30 @@ const EMailForm = (props) => {
   };
 
   return (
-    <div className="RegisterForm">
+    <div className="EMailForm">
       <Container style={{ marginTop: 40 }}>
+        <Header
+          as="h1"
+          content="Add the details below and click on Submit to send the mail"
+          inverted
+          style={{
+            fontSize: "1.5em",
+            fontWeight: "normal",
+            marginBottom: "1em",
+            marginTop: "3em",
+          }}
+        />
+        <Header
+          as="h2"
+          content="Note: Add multiple recipients by seperating them with a semicolon. [For Ex: abc@d.com;efg@h.com]"
+          inverted
+          style={{
+            fontSize: "1.5em",
+            fontWeight: "normal",
+            marginBottom: "1em",
+            marginTop: "3em",
+          }}
+        />
         <Form>
           <Form.Field>
             <Input
